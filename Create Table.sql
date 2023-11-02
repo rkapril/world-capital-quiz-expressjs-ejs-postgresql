@@ -3,9 +3,3 @@ CREATE TABLE IF NOT EXISTS captials (
 	country VARCHAR(45),
 	captial VARCHAR(45)
 );
-
-CREATE TABLE IF NOT EXISTS flags (
-	id SERIAL PRIMARY KEY,
-	name VARCHAR(45),
-	flag TEXT
-);
